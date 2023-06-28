@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="TaskManager.Views.AboutView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TaskManager.Views"
+             xmlns:vm="clr-namespace:TaskManager.ViewModels"
+             mc:Ignorable="d" 
+             d:DataContext="{d:DesignInstance vm:AboutViewModel, IsDesignTimeCreatable=True}"
+             d:DesignHeight="700" d:DesignWidth="730">
+    <Border Background="{StaticResource Background1}" CornerRadius="0 0 15 0">
+        
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="Проект розроблений студентом групи КІ-34, Гугелем Романом" HorizontalAlignment="Center" VerticalAlignment="Center"
+                       Foreground="{StaticResource MaterialDesignBodyLight}" 
+                       TextWrapping="Wrap" Style="{StaticResource MaterialDesignHeadline5TextBlock}"/>
+            <Grid Grid.Row="1">
+                
+                <ScrollViewer>
+                    <StackPanel Orientation="Vertical" Margin="50 40">
+                          <TextBlock Text="1. Сторінка 'Процеси' відображає всі запущені процеси в системі. Можна переглянути назву кожного процесу, ідентифікатор та використання ним ресурсів. Щоб переглянути які модулі використовує процес - натисніть ПКМ на потрібний процес, виберіть пункт 'Модулі'. Аби завершити процес, виберіть пункт 'Завершити процес'."
+                          HorizontalAlignment="Left" VerticalAlignment="Center"
+                          Foreground="{StaticResource MaterialDesignBodyLight}" 
+                          TextWrapping="Wrap" Style="{StaticResource MaterialDesignHeadline6TextBlock}"/>
+                        <TextBlock Margin="0 30" Text="2. Сторінка 'Автозавантаження' відображає програми, які завантажуються автоматично при запуску системи. Аби додати програму до автозапуску скопіюйте шлях програми і вставте його в поле, або ж через кнопку пошуку виберіть потрібну вам програму і тоді натисніть кнопку 'Додати'. Якщо ж ви бажаєте видалити програму з автозавантаження, виберіть її, і натисніть на кнопку 'Видалити'."
+                          HorizontalAlignment="Left" VerticalAlignment="Center"
+                          Foreground="{StaticResource MaterialDesignBodyLight}" 
+                          TextWrapping="Wrap" Style="{StaticResource MaterialDesignHeadline6TextBlock}"/>
+
+                        <TextBlock Margin="0 30" Text="2. Сторінка 'Сервіси' відображає всі сервіси, їхній стан, виконувану функцію та тип завантаження."
+                          HorizontalAlignment="Left" VerticalAlignment="Center"
+                          Foreground="{StaticResource MaterialDesignBodyLight}" 
+                          TextWrapping="Wrap" Style="{StaticResource MaterialDesignHeadline6TextBlock}"/>
+                    </StackPanel>
+                </ScrollViewer>
+            </Grid>
+        </Grid>
+    </Border>
+</UserControl>

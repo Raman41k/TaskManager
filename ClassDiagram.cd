@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TaskManager.Infrastructure.Commands.CloseWindowCommand">
+    <Position X="6.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Commands\CloseWindowCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskManager.Infrastructure.Commands.Command" Collapsed="true">
+    <Position X="9" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Commands\Command.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskManager.Infrastructure.Commands.LambdaCommand">
+    <Position X="10" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQCAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Commands\LambdaCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskManager.Infrastructure.Commands.MinimizeWindowCommand" Collapsed="true">
+    <Position X="6.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Commands\MinimizeWindowCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskManager.Infrastructure.Commands.MoveWindowCommand">
+    <Position X="9" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Commands\MoveWindowCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskManager.Infrastructure.Commands.SetNormalWindowCommand">
+    <Position X="9" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Commands\SetNormalWindowCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskManager.ViewModels.AboutViewModel" Collapsed="true">
+    <Position X="15.25" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\AboutViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskManager.ViewModels.AutostartsViewModel">
+    <Position X="21.25" Y="5.25" Width="3" />
+    <InheritanceLine Type="TaskManager.ViewModels.BaseViewModel" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.25" Y="8.375" />
+        <Point X="13.413" Y="8.375" />
+        <Point X="13.413" Y="8.351" />
+        <Point X="20.875" Y="8.351" />
+        <Point X="20.875" Y="7.75" />
+        <Point X="21.25" Y="7.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAIIAAAAACAIAUAAAAIAACEAAAABABAAUAAA=</HashCode>
+      <FileName>ViewModels\AutostartsViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskManager.ViewModels.ModulesViewModel">
+    <Position X="18.25" Y="4.75" Width="2.25" />
+    <InheritanceLine Type="TaskManager.ViewModels.BaseViewModel" FixedFromPoint="true">
+      <Path>
+        <Point X="13.25" Y="8.375" />
+        <Point X="15" Y="8.375" />
+        <Point X="15" Y="8.374" />
+        <Point X="19.375" Y="8.374" />
+        <Point X="19.375" Y="7.848" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAQAAACAAgACAAAICAAAAA=</HashCode>
+      <FileName>ViewModels\ModulesViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskManager.ViewModels.MainWindowViewModel">
+    <Position X="15.5" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAAEQICAAAAAFMQAAEAAAAAAIAAQAABAEAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\MainWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskManager.ViewModels.ProcessesViewModel">
+    <Position X="18" Y="8.5" Width="2" />
+    <InheritanceLine Type="TaskManager.ViewModels.BaseViewModel" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.25" Y="8.375" />
+        <Point X="13.869" Y="8.375" />
+        <Point X="13.869" Y="8.351" />
+        <Point X="18.938" Y="8.351" />
+        <Point X="18.938" Y="8.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAAAEAAABACAAAAAgAAAAACAAAECCAQDAAAAICAAAIA=</HashCode>
+      <FileName>ViewModels\ProcessesViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskManager.ViewModels.ServicesViewModel">
+    <Position X="15.25" Y="4.75" Width="1.75" />
+    <InheritanceLine Type="TaskManager.ViewModels.BaseViewModel" FixedFromPoint="true">
+      <Path>
+        <Point X="13.25" Y="7.812" />
+        <Point X="13.625" Y="7.812" />
+        <Point X="13.625" Y="5.914" />
+        <Point X="15.25" Y="5.914" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>ViewModels\ServicesViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskManager.ViewModels.BaseViewModel">
+    <Position X="11.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\BaseViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskManager.Views.AboutView" Collapsed="true">
+    <Position X="6.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\AboutView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskManager.Views.AutostartsView" Collapsed="true">
+    <Position X="7" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\AutostartsView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskManager.Views.MainWindow" Collapsed="true">
+    <Position X="9" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskManager.Views.ModulesView" Collapsed="true">
+    <Position X="11" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ModulesView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskManager.Views.ProcessesView" Collapsed="true">
+    <Position X="9" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ProcessesView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskManager.Views.ServicesView" Collapsed="true">
+    <Position X="9.75" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ServicesView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
